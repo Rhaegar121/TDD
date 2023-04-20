@@ -49,22 +49,26 @@ To get a local copy up and running follow these simple example steps.
   - Open the Terminal(Mac/Linux) or the Cmd (Windows);
   - Navigate to where you want to paste the Repo folder;
   - Run the following commands
+
 ```
 git clone https://github.com/Rhaegar121/TDD.git
 cd OOP-School-Library
 ```
 
-
 ### Install
+
 ```
   bundle install
-```  
+```
 
 ### Usage
+
 ```
 irb
 ```
+
 ### Run tests
+
 ```
 rspec spec
 ```
@@ -82,6 +86,12 @@ rspec spec
 - GitHub: [@githubhandle](https://github.com/Rhaegar121)
 - Twitter: [@twitterhandle](https://twitter.com/20Rhaegar)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kaung-myat-kyaw-391720227)
+
+👤 **James Serengia**
+
+- GitHub: [@serengia](https://github.com/serengia)
+- Twitter: [@jamesserengia](https://twitter.com/jamesserengia)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/james-serengia)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -112,4 +122,3 @@ I would like to thank you all who support this project.
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
