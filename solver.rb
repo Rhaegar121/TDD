@@ -1,6 +1,11 @@
 class Solver
     def factorial(num)
-        return 1 if num == 0
-        num * factorial(num - 1)
+        if num.negative?
+            'Please enter positive number'
+        elsif num < 2
+            1
+        else 
+            num * factorial(num - 1)
+        end
     end
 end
