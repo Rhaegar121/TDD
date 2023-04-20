@@ -18,7 +18,7 @@ describe 'Solver' do
     end
 
     context 'testing reverse' do
-        if 'should returns the reverse string' do
+        it 'should returns the reverse string' do
             expect(@solver.reverse('hello')).to eq 'olleh'
             expect(@solver.reverse('')).to eq ''
         end
