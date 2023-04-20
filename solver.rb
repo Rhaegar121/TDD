@@ -1,7 +1,7 @@
 class Solver
   def factorial(num)
     if num.negative?
-      "Please enter positive number"
+      'Please enter positive number'
     elsif num < 2
       1
     else
@@ -14,9 +14,10 @@ class Solver
   end
 
   def fizzbuzz(num)
-    return "fizzbuzz" if (num % 3 == 0 && num % 5 == 0)
-    return "fizz" if (num % 3 == 0)
-    return "buzz" if (num % 5 == 0)
-    "#{num}"
+    return 'fizzbuzz' if (num % 3).zero? && (num % 5).zero?
+    return 'fizz' if (num % 3).zero?
+    return 'buzz' if (num % 5).zero?
+
+    num.to_s
   end
 end
