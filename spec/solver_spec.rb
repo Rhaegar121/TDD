@@ -12,5 +12,8 @@ describe 'Solver' do
         it 'should returns 24 when the factorial of 4' do
             expect(@solver.factorial(4)).to eq 24
         end
+        it 'should returns an exception when the number is negative' do
+            expect(@solver.factorial(-1)).to eq 'Please enter positive number'
+        end
     end
 end
