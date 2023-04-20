@@ -16,4 +16,11 @@ describe 'Solver' do
             expect(@solver.factorial(-1)).to eq 'Please enter positive number'
         end
     end
+
+    context 'testing reverse' do
+        if 'should returns the reverse string' do
+            expect(@solver.reverse('hello')).to eq 'olleh'
+            expect(@solver.reverse('')).to eq ''
+        end
+    end
 end
